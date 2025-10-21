@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Web Programcılığı Testi</title>
+</head>
+<body>
+
+<h2>💻 Web Programcılığı Testi</h2>
+<p>Lütfen aşağıdaki soruları cevaplayınız.</p>
+
+<form action="#" method="post">
+
+  <p>1️⃣ HTML neyin kısaltmasıdır?</p>
+  <input type="text" name="html_aciklama" placeholder="Cevabınızı yazınız" required><br><br>
+
+  <p>2️⃣ HTML’de bağlantı oluşturmak için hangi etiket kullanılır?</p>
+  <input type="radio" id="link" name="etiket" value="link">
+  <label for="link">&lt;link&gt;</label><br>
+  <input type="radio" id="a" name="etiket" value="a">
+  <label for="a">&lt;a&gt;</label><br>
+  <input type="radio" id="href" name="etiket" value="href">
+  <label for="href">&lt;href&gt;</label><br><br>
+
+  <p>3️⃣ Aşağıdaki dillerden hangileri web geliştirmede kullanılır?</p>
+  <input type="checkbox" id="html" name="dil" value="HTML">
+  <label for="html">HTML</label><br>
+  <input type="checkbox" id="css" name="dil" value="CSS">
+  <label for="css">CSS</label><br>
+  <input type="checkbox" id="js" name="dil" value="JavaScript">
+  <label for="js">JavaScript</label><br>
+  <input type="checkbox" id="cpp" name="dil" value="C++">
+  <label for="cpp">C++</label><br><br>
+
+  <p>4️⃣ HTML bilginizi 0-100 arasında değerlendiriniz:</p>
+  <input type="range" name="html_bilgi" min="0" max="100"><br><br>
+
+  <p>5️⃣ Web programlamaya ne zaman başladınız?</p>
+  <input type="date" name="baslangic_tarih"><br><br>
+
+  <p>6️⃣ Kişisel web siteniz varsa adresini giriniz:</p>
+  <input type="url" name="webadresi" placeholder="https://..."><br><br>
+
+  <p>7️⃣ En çok kullandığınız tarayıcıyı seçiniz:</p>
+  <input list="tarayicilar" name="tarayici">
+  <datalist id="tarayicilar">
+    <option value="Google Chrome">
+    <option value="Mozilla Firefox">
+    <option value="Microsoft Edge">
+    <option value="Safari">
+    <option value="Opera">
+    <option value="Brave">
+  </datalist><br><br>
+
+  <p>8️⃣ Web programcılığı hakkındaki düşünceleriniz:</p>
+  <textarea name="yorum" rows="4" cols="40" placeholder="Yorumunuzu yazınız..."></textarea><br><br>
+
+  <input type="submit" value="Gönder">
+  <input type="reset" value="Temizle">
+
+</form>
+
+</body>
+</html>
