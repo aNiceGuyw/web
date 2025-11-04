@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8">
+    <title>Ders Programı - Inline CSS</title>
+    <style>
+      th {
+        width:100px;       
+      }
+      table {
+        width:30%;
+        margin:auto;
+        border-collapse:collapse;
+        text-align:center;
+        font-family:Arial;
+        font-size:14px;
+      }
+      h2 {
+        text-align:center;
+      }
+    </style>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h2 style="text-align:center;">Inline CSS</h2>
+
+    <table border="1" style="width:30%; margin:auto; border-collapse:collapse; text-align:center; font-family:Arial; font-size:14px;">
+      <tr>
+        <th>Ders</th>
+        <th>Saat</th>
+        <th style="width:100px;">Pazartesi</th>
+        <th style="width:100px;">Salı</th>
+        <th style="width:100px;">Çarşamba</th>
+        <th style="width:100px;">Perşembe</th>
+        <th style="width:100px;">Cuma</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>08:40-09:30</td> 
+        <td>BTE307.01 <br>Eğitimde Modelleme ve Tasarım <br>Dr. A. ÖZKÖK <br>C-K2-10 </td>
+        <td>GKS 104.01 <br>C-K2-10 </td>
+        <td></td>
+        <td>EGT 303.02 <br>C-K3-10 </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>09:40-10:30</td>
+        <td> </td>
+        <td></td>
+        <td>BTE 311 <br>Web Tabanlı Programlama <br>Dr. E. KIDIMAN DEMİRHAN <br>(BÖTE Lab 2) </td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>10:40-11:30</td>
+        <td></td>
+        <td>EGT 304.02 <br>Kaşgarlı Mahmut <br>C-K2-12 </td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>13:40-14:30</td>
+        <td> </td>
+        <td></td>
+        <td></td>
+        <td>BTE313.01 <br>Eğitsel Video Tasarımı <br>Dr. P. NUHOĞLU KIBAR <br>C-K2-14 </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>15:40-16:30</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>BTE 309 <br>Bilişim Öğretim Programları <br>Dr. A. ALTUN <br>C-K3-09 </td>
+        <td></td>
+      </tr>
+    </table>
+<br>
+ <h2>Internal CSS</h2>
+
+<table border="1">
+      <tr>
+        <th>Ders</th>
+        <th>Saat</th>
+        <th>Pazartesi</th>
+        <th>Salı</th>
+        <th>Çarşamba</th>
+        <th>Perşembe</th>
+        <th>Cuma</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>08:40-09:30</td>
+        <td>BTE307.01 <br>Eğitimde Modelleme ve Tasarım <br>Dr. A. ÖZKÖK <br>C-K2-10 </td>
+        <td>GKS 104.01 <br>C-K2-10 </td>
+        <td></td>
+        <td>EGT 303.02 <br>C-K3-10 </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>09:40-10:30</td>
+        <td> </td>
+        <td></td>
+        <td>BTE 311 <br>Web Tabanlı Programlama <br>Dr. E. KIDIMAN DEMİRHAN <br>(BÖTE Lab 2) </td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>10:40-11:30</td>
+        <td></td>
+        <td>EGT 304.02 <br>Kaşgarlı Mahmut <br>C-K2-12 </td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>13:40-14:30</td>
+        <td> </td>
+        <td></td>
+        <td></td>
+        <td>BTE313.01 <br>Eğitsel Video Tasarımı <br>Dr. P. NUHOĞLU KIBAR <br>C-K2-14 </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>15:40-16:30</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>BTE 309 <br>Bilişim Öğretim Programları <br>Dr. A. ALTUN <br>C-K3-09 </td>
+        <td></td>
+      </tr>
+    </table>
+    <br>
+ <h2>External CSS</h2>
+
+<table border="1">
+      <tr>
+        <th>Ders</th>
+        <th>Saat</th>
+        <th>Pazartesi</th>
+        <th>Salı</th>
+        <th>Çarşamba</th>
+        <th>Perşembe</th>
+        <th>Cuma</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>08:40-09:30</td>
+        <td>BTE307.01 <br>Eğitimde Modelleme ve Tasarım <br>Dr. A. ÖZKÖK <br>C-K2-10 </td>
+        <td>GKS 104.01 <br>C-K2-10 </td>
+        <td></td>
+        <td>EGT 303.02 <br>C-K3-10 </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>09:40-10:30</td>
+        <td> </td>
+        <td></td>
+        <td>BTE 311 <br>Web Tabanlı Programlama <br>Dr. E. KIDIMAN DEMİRHAN <br>(BÖTE Lab 2) </td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>10:40-11:30</td>
+        <td></td>
+        <td>EGT 304.02 <br>Kaşgarlı Mahmut <br>C-K2-12 </td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>13:40-14:30</td>
+        <td> </td>
+        <td></td>
+        <td></td>
+        <td>BTE313.01 <br>Eğitsel Video Tasarımı <br>Dr. P. NUHOĞLU KIBAR <br>C-K2-14 </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>15:40-16:30</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>BTE 309 <br>Bilişim Öğretim Programları <br>Dr. A. ALTUN <br>C-K3-09 </td>
+        <td></td>
+      </tr>
+    </table>
+  </body>
+</html>
+

@@ -1,0 +1,14 @@
+th {
+        width:100px;       
+      }
+      table {
+        width:30%;
+        margin:auto;
+        border-collapse:collapse;
+        text-align:center;
+        font-family:Arial;
+        font-size:14px;
+      }
+      h2 {
+        text-align:center;
+      }
