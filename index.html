@@ -1,29 +1,28 @@
 <!DOCTYPE html>
 <html lang="tr">
-<head>
-  <meta charset="UTF-8">
-  <title>Ana Sayfa</title>
-  <style>
-    body {
+  <head>
+    <meta charset="UTF-8" />
+    <title>Ana Sayfa</title>
+    <style>
+      body {
         font-size: 24px;
-        font-family: 'Poppins', sans-serif;
+        font-family: "Poppins", sans-serif;
         background-color: rgb(20, 20, 20);
-    }
-    
-    a {
+      }
+
+      a {
         color: rgb(152, 152, 152);
         text-decoration: none;
-    }
-    a:hover{
+      }
+      a:hover {
         color: rgb(200, 200, 200);
-    }
-    a:hover::before {
-              content: '►';
-    }
-    .container {
-        background-color:rgb(
-        30, 30, 30);
-        color:white;
+      }
+      a:hover::before {
+        content: "►";
+      }
+      .container {
+        background-color: rgb(30, 30, 30);
+        color: white;
         max-width: 800px;
         border-radius: 30px;
         padding: 20px;
@@ -31,64 +30,75 @@
         left: 50%;
         transform: translate(-50%);
         filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.9));
-    }
-    .title {
-    font-size: 4rem; 
-    font-weight: bold;
-    background: linear-gradient(90deg, rgb(255, 255, 255), rgb(125, 125, 125), rgb(255, 255, 255), rgb(125, 125, 125));
-    background-size: 300% 300%;
-    -webkit-background-clip: text;
-    color: transparent; 
-    animation: rgbSlide 4s infinite linear;
-    }
-    .bayram{
-    font-size: 1.5rem; 
-    background: linear-gradient(90deg, rgb(255, 255, 255), rgb(255, 0, 0), rgb(255, 255, 255), rgb(255, 0, 0));
-    background-size: 300% 300%;
-    -webkit-background-clip: text;
-    color: transparent; 
-    animation: rgbSlide 4s infinite linear;
-    }
+      }
+      .title {
+        font-size: 4rem;
+        font-weight: bold;
+        background: linear-gradient(
+          90deg,
+          rgb(255, 255, 255),
+          rgb(125, 125, 125),
+          rgb(255, 255, 255),
+          rgb(125, 125, 125)
+        );
+        background-size: 300% 300%;
+        -webkit-background-clip: text;
+        color: transparent;
+        animation: rgbSlide 4s infinite linear;
+      }
+      .bayram {
+        font-size: 1.5rem;
+        background: linear-gradient(
+          90deg,
+          rgb(255, 255, 255),
+          rgb(255, 0, 0),
+          rgb(255, 255, 255),
+          rgb(255, 0, 0)
+        );
+        background-size: 300% 300%;
+        -webkit-background-clip: text;
+        color: transparent;
+        animation: rgbSlide 4s infinite linear;
+      }
 
-    @keyframes rgbSlide {
-    0% {
-        background-position: 0% 50%;
-    }
-    100% {
-        background-position: 100% 50%;
-    }
-    }
-   
-  </style>
-</head>
-<body>
+      @keyframes rgbSlide {
+        0% {
+          background-position: 0% 50%;
+        }
+        100% {
+          background-position: 100% 50%;
+        }
+      }
+    </style>
+  </head>
+  <body>
     <div class="container">
-        <div style="text-align: center; margin-bottom: -40px;">
-            <img src="pp.jpg" style="width:100px; border-radius: 100px;" alt="">
-         </div>
-        <h1 class="title">Ömer Yiğit Erdoğan</h1>
-        <hr style="border: 1px solid rgb(60, 60, 60);">
-        <h3>Hafta 4 LAB Görevleri</h3>
-        <a href="Form1.html"> Üyelik Formu</a><br><br>
-        <a href="Test1.html"> Web Test Sayfası</a><br><br>
-        <h3>Hafta 5 LAB Görevleri</h3>
-        <a href="venn_semasi.html"> Venn Şeması </a><br><br>
-        <a href="tablo.html"> Tablolar </a><br><br>
-        <h3>Hafta 6 LAB Görevleri</h3>
-        <p class="bayram"> ℂ⋆ 29 Ekim Cumhuriyet Bayramı </p><br>
-        <h3>Hafta 7 LAB Görevleri</h3>
-        <a href="yuvarlaklar.html"> 5 Yuvarlak </a><br><br>
-        <h3>Hafta 8 LAB Görevleri</h3>
-        <a href="kartlar.html"> Seyahat kartları </a><br><br>
-        <h3>Hafta 9 LAB Görevleri</h3><br><br>
-        <h3>Hafta 10 LAB Görevleri</h3>
-        <a href="snake.html"> Yılan Oyunu </a><br><br>
-        <a href="yilanoyunu.html"> Yılan Oyunu Düzenlenmiş </a>
+      <div style="text-align: center; margin-bottom: -40px">
+        <img src="pp.jpg" style="width: 100px; border-radius: 100px" alt="" />
       </div>
-      
-</body>
+      <h1 class="title">Ömer Yiğit Erdoğan</h1>
+      <hr style="border: 1px solid rgb(60, 60, 60)" />
+      <h3>Hafta 4 LAB Görevleri</h3>
+      <a href="Form1.html"> Üyelik Formu</a><br /><br />
+      <a href="Test1.html"> Web Test Sayfası</a><br /><br />
+      <h3>Hafta 5 LAB Görevleri</h3>
+      <a href="venn_semasi.html"> Venn Şeması </a><br /><br />
+      <a href="tablo.html"> Tablolar </a><br /><br />
+      <h3>Hafta 6 LAB Görevleri</h3>
+      <p class="bayram">ℂ⋆ 29 Ekim Cumhuriyet Bayramı</p>
+      <br />
+      <h3>Hafta 7 LAB Görevleri</h3>
+      <a href="yuvarlaklar.html"> 5 Yuvarlak </a><br /><br />
+      <h3>Hafta 8 LAB Görevleri</h3>
+      <a href="kartlar.html"> Seyahat kartları </a><br /><br />
+      <h3>Hafta 9 LAB Görevleri</h3>
+      <br /><br />
+      <h3>Hafta 10 LAB Görevleri</h3>
+      <a href="snake.html"> Yılan Oyunu </a><br /><br />
+      <a href="yilanoyunu.html"> Yılan Oyunu Düzenlenmiş </a><br /><br />
+      <h3>Hafta 12 LAB Görevleri</h3>
+      <a href="teksayilar.php"> Tek Sayılar</a><br /><br />
+      <a href="tablo.php"> Tablo</a>
+    </div>
+  </body>
 </html>
-
-
-
-
