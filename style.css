@@ -1,14 +1,41 @@
-th {
-        width:100px;       
-      }
-      table {
-        width:30%;
-        margin:auto;
-        border-collapse:collapse;
-        text-align:center;
-        font-family:Arial;
-        font-size:14px;
-      }
-      h2 {
-        text-align:center;
-      }
+body {
+    font-family: sans-serif;
+    text-align: center;
+    transition: background-color 0.5s ease;
+    padding: 20px;
+}
+
+.image-controls {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.card {
+    text-align: center;
+}
+
+.img-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+img {
+    border-radius: 8px;
+}
+
+button {
+    cursor: pointer;
+    padding: 8px 15px;
+    margin: 0 2px;
+    border: 1px solid #ccc;
+    background: white;
+    border-radius: 4px;
+}
+
+button:hover {
+    background: #f0f0f0;
+}
