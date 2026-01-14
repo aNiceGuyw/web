@@ -4,12 +4,18 @@ body {
     transition: background-color 0.5s ease;
     padding: 20px;
 }
-#main-random-img {
-    max-width: 100%;
-    height: auto;
-    max-height: 400px;
+.main-img-wrapper {
+    width: 400px;
+    height: 300px;
+    margin: 0 auto;
+    overflow: hidden;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+#main-random-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .image-controls {
     display: flex;
@@ -20,30 +26,31 @@ body {
 }
 .card {
     text-align: center;
-    width: 220px;
+    width: 200px;
 }
 .img-wrapper {
-    width: 100%;
-    height: 160px;
-    margin-bottom: 10px;
+    width: 200px !important;
+    height: 150px !important;
+    margin-bottom: 15px;
     overflow: hidden;
     border-radius: 8px;
-    background-color: #ddd;
+    background-color: #eee;
+    display: block;
 }
 .img-wrapper img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
     display: block;
 }
 button {
     cursor: pointer;
-    padding: 8px 15px;
-    margin: 0 5px;
+    padding: 8px 12px;
+    margin: 0 2px;
     border: 1px solid #ccc;
     background: white;
     border-radius: 4px;
-    font-size: 14px;
+    font-size: 13px;
 }
 button:hover {
     background: #f0f0f0;
