@@ -6,39 +6,36 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
     <h1>Lab Görevi</h1>
-
     <div class="random-image-container">
-        <img id="main-random-img" src="" alt="Rastgele Resim" width="300">
+        <h3>Rastgele Seçilen Resim (1/10)</h3>
+        <div class="main-img-wrapper">
+            <img id="main-random-img" src="" alt="Rastgele Resim">
+        </div>
     </div>
-
     <hr>
-
     <div class="image-controls">
         <div class="card">
             <div class="img-wrapper">
-                <img id="img1" src="kadir.jpg" alt="Resim 1">
+                <img id="img1" src="kadir.jpg" alt="Kadir">
             </div>
             <div class="buttons">
                 <button onclick="toggleImage('img1', true)">Göster</button>
                 <button onclick="toggleImage('img1', false)">Gizle</button>
             </div>
         </div>
-
         <div class="card">
             <div class="img-wrapper">
-                <img id="img2" src="sideeye.png" alt="Resim 2">
+                <img id="img2" src="sideeye.png" alt="Side Eye">
             </div>
             <div class="buttons">
                 <button onclick="toggleImage('img2', true)">Göster</button>
                 <button onclick="toggleImage('img2', false)">Gizle</button>
             </div>
         </div>
-
         <div class="card">
             <div class="img-wrapper">
-                <img id="img3" src="sob.png" alt="Resim 3">
+                <img id="img3" src="sob.png" alt="Sob">
             </div>
             <div class="buttons">
                 <button onclick="toggleImage('img3', true)">Göster</button>
@@ -46,7 +43,6 @@
             </div>
         </div>
     </div>
-
     <script src="script.js"></script>
 </body>
 </html>
